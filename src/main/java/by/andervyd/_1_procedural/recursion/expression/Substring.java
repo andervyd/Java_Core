@@ -1,4 +1,4 @@
-package by.andervyd._1_procedural.recursion;
+package by.andervyd._1_procedural.recursion.expression;
 
 public class Substring {
     public static void main(String[] args) {
