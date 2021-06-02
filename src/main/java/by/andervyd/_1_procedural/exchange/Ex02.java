@@ -1,6 +1,6 @@
 package by.andervyd._1_procedural.exchange;
 
-public class Example02 {
+public class Ex02 {
     public static void main(String[] args) {
 
         int a = 3;

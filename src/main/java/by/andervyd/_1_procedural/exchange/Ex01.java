@@ -1,23 +1,23 @@
 package by.andervyd._1_procedural.exchange;
 
-public class Example00 {
+public class Ex01 {
     public static void main(String[] args) {
 
-        int a = 5;
-        int b = 2;
+        int a = 3;
+        int b = 5;
 
         System.out.println("a: " + a + "\nb: " + b);
         // output: a: 5
-        //         b: 2
+        //         b: 3
 
         System.out.println("====");
 
-        int tmp = a;
-        a = b;
-        b = tmp;
+        a = a + b; // a = 7
+        b = a - b; // b = 3;
+        a = a - b; // a = 5
 
         System.out.println("a: " + a + "\nb: " + b);
-        // output: a: 2
-        //         b: 5
+        // output: a: 5
+        //         b: 3
     }
 }

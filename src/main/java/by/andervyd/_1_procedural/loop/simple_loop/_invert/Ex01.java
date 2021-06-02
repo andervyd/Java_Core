@@ -1,6 +1,6 @@
 package by.andervyd._1_procedural.loop.simple_loop._invert;
 
-public class Example01 {
+public class Ex01 {
     public static void main(String[] args) {
 
         String input = "123.5";

@@ -2,7 +2,7 @@ package by.andervyd._1_procedural.toString;
 
 import java.util.Arrays;
 
-public class Example00 {
+public class Ex00 {
     public static void main(String[] args) {
 
         System.out.println(new Object());

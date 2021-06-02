@@ -1,6 +1,6 @@
 package by.andervyd._1_procedural.loop.simple_loop._invert;
 
-public class Example00 {
+public class Ex00 {
     public static void main(String[] args) {
 
         for (int i = 0; i < 5; i++) {
