@@ -6,10 +6,15 @@ public class Ex00 {
         f(1);
         // >> 1 2 4 8
 
-        System.out.println("\n=========");
+        System.out.println("\n =======");
 
         f2(1);
         // >> 8 4 2 1
+
+        System.out.println("\n ===============");
+
+        f3(1);
+        // >> 1 2 4 8 8 4 2 1
     }
 
     public static void f(int arg) {
@@ -22,6 +27,14 @@ public class Ex00 {
     public static void f2(int arg) {
         if (arg < 7) {
             f2(2 * arg);
+        }
+        System.out.print(" " + arg);
+    }
+
+    public static void f3(int arg) {
+        System.out.print(" " + arg);
+        if (arg < 7) {
+            f3(2 * arg);
         }
         System.out.print(" " + arg);
     }
