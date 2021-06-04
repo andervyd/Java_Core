@@ -3,11 +3,12 @@ package by.andervyd._1_procedural.dds;
 public class Ex00 {
     public static void main(String[] args) {
 
-        Node node = new Node(10,
-                        new Node(20,
-                            new Node(30, null)));
+        Node head = new Node(0,
+                        new Node(1,
+                            new Node(2,
+                                new Node(3,null))));
 
-        System.out.println(node);
-        // >> Node [value: 10, next: Node [value: 20, next: Node [value: 30, next: null]]]
+        System.out.println(head);
+        // >> Node [value: 0, next: Node [value: 1, next: Node [value: 2, next: Node [value: 3, next: null]]]]
     }
 }
