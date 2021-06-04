@@ -1,6 +1,6 @@
 package by.andervyd._1_procedural.dds;
 
-public class Ex5 {
+public class ExToString {
     public static void main(String[] args) {
 
         Node tail = Node.genRec(0, 1, 2, 3);

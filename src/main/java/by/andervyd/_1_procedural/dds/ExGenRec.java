@@ -1,6 +1,6 @@
 package by.andervyd._1_procedural.dds;
 
-public class Ex04 {
+public class ExGenRec {
     public static void main(String[] args) {
 
         Node tailOne = Node.genRec(0, 1, 2, 3);

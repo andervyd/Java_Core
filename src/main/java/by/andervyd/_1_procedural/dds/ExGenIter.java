@@ -1,6 +1,6 @@
 package by.andervyd._1_procedural.dds;
 
-public class Ex03 {
+public class ExGenIter {
     public static void main(String[] args) {
 
         Node tail = Node.genIter(0, 1, 2, 3);

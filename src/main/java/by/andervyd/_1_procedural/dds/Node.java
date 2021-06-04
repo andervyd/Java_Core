@@ -36,6 +36,31 @@ public class Node {
         }
     }
 
+    public static Node merge(Node tailA, Node tailB) {
+        if (tailA != null && tailB != null) {
+            if (tailA.value < tailB.value) {
+                return new Node(tailA.value, merge(tailA.next, tailB));
+            } else {
+                return new Node(tailB.value, merge(tailA, tailB.next));
+            }
+        } else {
+            return (tailA == null) ? tailB : tailA;
+        }
+    }
+
+    public static Node copy(Node tail) {
+        return (tail == null) ? null :
+                new Node(tail.value, copy(tail.next));
+    }
+
+    public static boolean isEqual(Node t0, Node t1) {
+        if (t0 != null && t1 != null) {
+            return (t0.value == t1.value) && isEqual(t0.next, t1.next);
+        } else {
+            return t0 == t1;
+        }
+    }
+
     public static String toStringIter(Node tail) {
         String result = "";
         while (tail != null) {
