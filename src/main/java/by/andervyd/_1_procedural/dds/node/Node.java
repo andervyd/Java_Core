@@ -1,4 +1,4 @@
-package by.andervyd._1_procedural.dds;
+package by.andervyd._1_procedural.dds.node;
 
 import java.util.Arrays;
 

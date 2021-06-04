@@ -1,4 +1,4 @@
-package by.andervyd._1_procedural.dds;
+package by.andervyd._1_procedural.dds.node;
 
 public class ExMerge {
     public static void main(String[] args) {

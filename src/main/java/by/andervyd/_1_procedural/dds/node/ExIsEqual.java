@@ -1,4 +1,4 @@
-package by.andervyd._1_procedural.dds;
+package by.andervyd._1_procedural.dds.node;
 
 public class ExIsEqual {
     public static void main(String[] args) {
