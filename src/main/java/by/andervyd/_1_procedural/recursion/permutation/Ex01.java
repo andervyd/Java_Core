@@ -6,8 +6,9 @@ public class Ex01 {
     public static void main(String[] args) {
 
         int[] array = {1, 2};
-        permute(array, array.length);
-
+        permute(array, array.length); // NOT WORK
+        // >> [2, 1]
+        //    [2, 1]
     }
 
     public static void permute(int[] array, int size) {

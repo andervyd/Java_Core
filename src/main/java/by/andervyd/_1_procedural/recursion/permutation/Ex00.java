@@ -7,7 +7,12 @@ public class Ex00 {
 
         int[] array = {1, 2, 3};
         permute(array, 0);
-
+        // >>   [1, 2, 3]
+        //      [1, 3, 2]
+        //      [2, 1, 3]
+        //      [2, 3, 1]
+        //      [3, 2, 1]
+        //      [3, 1, 2]
     }
 
     public static void permute(int[] array, int size) {
